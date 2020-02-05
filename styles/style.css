@@ -1,0 +1,220 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: 'Cairo', sans-serif;
+    /* font-family: 'Teko', sans-serif; */
+}
+
+/* This wrapper allows me to have the footer to stay at the bottom, 
+also make sure the html and body is set to 0 margin and padding, with a height of 100%*/
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+
+
+
+/* ---------------------------------------------- */
+/* Header  */
+/* ---------------------------------------------- */
+
+
+#header-wrap {
+    /* background-color: red; */
+    border-bottom: 2px solid #76736c;
+    height: 100%; 
+}
+
+
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Vollkorn SC', serif; 
+    font-size: 1.9em;
+    font-weight: bold;
+    color: #fff;
+    padding:30px;
+    background-color: #5b5853;
+    display: inline-block;
+    width: 320px;
+    height: 100px;
+    margin-bottom: 0;
+    /* float: left; */
+    /* position: absolute;
+    position: relative;
+    top: 0px;
+    left: 0px; */
+}
+
+a { 
+    text-decoration: none;
+    color: #ece9e4;
+}
+
+nav {
+    display: block;
+    text-align: center;
+    padding: 30px 0;
+    /* margin-top: 30px; */
+    position: relative;
+}
+
+li {
+    display: inline;
+    padding:20px;
+}
+
+ ul {
+    display: inline-block;
+    /* position: absolute; */
+    position: relative;
+    /* right: 0px; */
+    /* top: 40px; */
+    /* padding: 0; */
+} 
+
+
+
+
+/* ---------------------------------------------- */
+/* Portfolio Page  */
+/* ---------------------------------------------- */
+
+#main-wrap {
+    padding-bottom: 60px;
+}
+
+section {
+    border: 1px solid #64615e;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+section img {
+    float: left;
+    /* margin-top: 30px; */
+    padding: 0 30px 0 0;
+    /* width: 100%; */
+    height: auto;
+}
+
+#githubCard{
+    float: right;
+    padding: 0 40px 0 0;
+    /* width: 100%; */
+    height: auto;
+}
+
+.port {
+    border: 1px solid #292521;
+    padding: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.port_img {
+    display: inline-block;
+}
+
+h2 {
+    font-family: 'Vollkorn SC', serif;
+    font-size: 1.7em;
+    font-weight: bold;
+    color: #514d48;
+    padding-bottom: 30px;
+    text-align: left;
+}
+#jScrpBar{
+    padding-right: 5px;
+}
+
+#hlBar{
+    padding-right: 50px;
+ 
+}
+#stBar{
+    padding-right: 73px;
+
+}
+
+#reBar{
+    padding-right: 53px;
+
+}
+
+
+p {
+    /* margin-top: 30px; */
+    line-height: 1.5;
+    padding: 10px 20px 0 0; 
+}
+
+.progress{
+    height: 35px;
+    padding: 2px;
+    
+}
+
+
+
+/* ------Footer------ */
+
+#foot-wrap {
+    background-color: #36332e;
+    border-top: 9px solid #7d7b78;
+    color: #fff;
+    /* margin-bottom:1%; */
+    text-align: center;
+    padding: 18px 0 2px 0;
+    height: 60px;
+    width: 100%;
+    /* position: absolute; */
+    bottom: 5;
+}
+
+
+
+
+
+/* ---------------------------------------------- */
+/* Form  */
+/* ---------------------------------------------- */
+
+
+/* ---------------------------------------------- */
+/* Form  */
+/* ---------------------------------------------- */
+
+
+.contact-form {
+    width: 30%;
+    margin-left: 15px;
+    /* margin: 0 auto; */
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 200%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 20px 5px 10px 0;
+}
+
+select {
+    height: 30px;
+}
+
+*:focus {outline: none;}
